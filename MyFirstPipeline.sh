@@ -66,4 +66,8 @@ bowtie2 -x index/Tcongo -1 ./fastq/*_1.fq.gz -2 ./fastq/*_2.fq.gz -S aligned_rea
 samtools view -b -o ./aligned_reads/Tcongo.bam ./aligned_reads/Tcongo.sam
 
 #check that you have generated a .bam file in the correct directory
-ls aligned_reads 
+ls aligned_reads
+
+#generate counts data using bedtools and put the outputs in a new file called generated_counts
+#the intersected counts are on the 5th field
+bedtools intersect -a TriTrypDB-46_TcongolenseIL3000_2019.bed -b ./aligned_reads/Tcongo.bam -c > generated_counts
