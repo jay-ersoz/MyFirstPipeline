@@ -1,0 +1,11 @@
+commit 3747daed6577c760d9ef5e003df557c975a9abf5
+Author: High Functioning Foreigners <>
+Date:   Mon Oct 19 10:56:57 2026 +0100
+
+    Adding the submission folder and the encrypted .tar.gz file containing the git log and shell script
+
+commit f98efeb8d4b36cc160424c5016839d17ff664980
+Author: High Functioning Foreigners <>
+Date:   Mon Oct 19 10:47:49 2026 +0100
+
+    The shell file with answers to Q1-Q3
